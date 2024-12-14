@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Selamat datang di Best Hotel, tempat terbaik untuk menginap.">
+    <meta name="keywords" content="hotel, penginapan, fasilitas, kolam renang, pusat kebugaran">
+    <title>Best Hotel</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .header-image {
+            border-radius: 50%;
+        }
+        .content img {
+            border-radius: 8px;
+        }
+        .video-container {
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: bisque;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3">BEST HOTEL</h1>
+            <img src="./Logo1.jpg" alt="Logo Best Hotel" class="header-image" height="100px" width="100px"> 
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Best Hotel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Kamar</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Fasilitas</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Petualangan Alam</a></li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Kolam Renang</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Sumber Air Panas</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">Kolam Anak & Dewasa</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Reguler</a></li>
+                                            <li><a class="dropdown-item" href="#">Premium</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Pusat Kebugaran</a></li>
+                            <li><a class="dropdown-item" href="#">Ruang Rapat</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Pesan Sekarang</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/8JW6qzPCkE8" class="w-100" height="200" allowfullscreen></iframe>
+                </div>
+                <div class="video-container mt-3">
+                    <iframe src="https://www.youtube.com/embed/6sxNEqcJcY4" class="w-100" height="200" allowfullscreen></iframe>
+                </div>
+                <div class="video-container mt-3">
+                    <iframe src="https://www.youtube.com/embed/glUOkq29plE" class="w-100" height="200" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="row g-3">
+                    <div class="col-md-4"><img src="./image1.jpg" alt="Kamar 1" class="img-fluid"></div>
+                    <div class="col-md-4"><img src="./image2.jpg" alt="Kamar 2" class="img-fluid"></div>
+                    <div class="col-md-4"><img src="./image3.jpg" alt="Kamar 3" class="img-fluid"></div>
+                    <div class="col-md-4"><img src="./image1.jpg" alt="Kamar 4" class="img-fluid"></div>
+                    <div class="col-md-4"><img src="./image2.jpg" alt="Kamar 5" class="img-fluid"></div>
+                    <div class="col-md-4"><img src="./image3.jpg" alt="Kamar 6" class="img-fluid"></div>
+                    <div class="col-md-4"><img src="./image1.jpg" alt="Kamar 7" class="img-fluid"></div>
+                    <div class="col-md-4"><img src="./image2.jpg" alt="Kamar 8" class="img-fluid"></div>
+                    <div class="col-md-4"><img src="./image3.jpg" alt="Kamar 9" class="img-fluid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; SOLIDARITY M FOREVER Best Hotel
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
